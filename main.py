@@ -49,7 +49,7 @@ def load_rag_pipeline():
 
     llm = ChatGroq(
         model="llama-3.1-8b-instant",
-        api_key=os.getenv("GROQ_API_KEY"),
+        api_key=st.secrets("GROQ_API_KEY"),
         max_tokens=80
     )
     return db, llm
