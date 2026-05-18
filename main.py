@@ -110,7 +110,7 @@ with tab1:
             st.dataframe(input_df)
 
         if st.button("🔮 Predict Bike Demand"):
-            url = "https://your-api.onrender.com/predict"
+            url = "http://127.0.0.1:8000/docs"
             try:
                 response = requests.post(url, json=data)
                 if response.status_code == 200:
