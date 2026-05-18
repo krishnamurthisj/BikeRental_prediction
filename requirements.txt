@@ -1,4 +1,5 @@
 streamlit
+fastapi
 requests
 pandas
 numpy
