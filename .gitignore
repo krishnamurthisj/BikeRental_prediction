@@ -1,8 +1,7 @@
-__pycache__/ 
-*.pyc 
-*.pkl 
-*.ppk 
-*.pem 
-*.csv 
-*.ipynb 
-.env 
+__pycache__/
+*.pyc
+*.ppk
+*.pem
+*.csv
+*.ipynb
+.env
