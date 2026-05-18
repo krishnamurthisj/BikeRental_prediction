@@ -43,10 +43,8 @@ html, body, [class*="css"]  {
     border-radius: 10px;
 }
 
-
-
 /* ===============================
-   TABS - SKY BLUE THEME
+   TABS - SKY BLUE + BLACK TEXT
 ================================= */
 
 .stTabs [data-baseweb="tab-list"] {
@@ -56,9 +54,10 @@ html, body, [class*="css"]  {
     border-radius: 12px;
 }
 
+/* Normal tab */
 .stTabs [data-baseweb="tab"] {
     background-color: transparent;
-    color: #0369a1;
+    color: black !important;
     padding: 10px 16px;
     border-radius: 10px;
     font-weight: 600;
@@ -68,15 +67,16 @@ html, body, [class*="css"]  {
 /* Active tab */
 .stTabs [aria-selected="true"] {
     background: linear-gradient(135deg, #38bdf8, #0ea5e9);
-    color: white !important;
+    color: black !important;
     box-shadow: 0 4px 10px rgba(14,165,233,0.3);
 }
 
 /* Hover effect */
 .stTabs [data-baseweb="tab"]:hover {
     background-color: #bae6fd;
-    color: #0284c7;
+    color: black !important;
 }
+
 
 /* ===============================
    HEADINGS
