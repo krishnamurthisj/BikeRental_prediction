@@ -36,7 +36,7 @@ if "messages" not in st.session_state:
 # ── LOAD RAG PIPELINE ─────────────────────────────────────────
 @st.cache_resource
 def load_rag_pipeline():
-    loader = PyPDFLoader(r"C:\Users\krish\OneDrive\Desktop\MlProject\BikeRental_prediction\neokrish_clean.pdf")
+    loader = PyPDFLoader("neokrish_clean.pdf")
     docs = loader.load()
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
