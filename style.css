@@ -56,7 +56,6 @@ html, body, [class*="css"]  {
 
 /* Normal tab */
 .stTabs [data-baseweb="tab"] {
-    background-color: transparent;
     color: black !important;
     padding: 10px 16px;
     border-radius: 10px;
